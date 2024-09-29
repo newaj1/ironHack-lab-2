@@ -107,7 +107,7 @@ body {
 
 /* about section end */
 
-/* green section start */
+/* features section start */
 
 .container {
     background-color: #13b36b;
@@ -115,7 +115,7 @@ body {
     margin: 30px 50px;
 }
 
-.green-section-content {
+.features-section-content {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -128,24 +128,24 @@ body {
     font-size: 50px;
 }
 
-.green-section-text hr {
+.features-section-text hr {
     width: 600px;
     height: 5px;
     background-color: white;
     border: none;
 }
 
-.green-section-text {
+.features-section-text {
     color: white;
 }
 
-.green-section-text h3 {
+.features-section-text h3 {
     color: white;
     font-weight: 900;
     font-size: 40px;
 }
 
-.green-section-text p {
+.features-section-text p {
     font-size: 30px;
 }
 
@@ -159,4 +159,4 @@ body {
     height: auto;
 }
 
-/* green section end */
+/* features section end */
