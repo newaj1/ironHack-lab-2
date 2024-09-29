@@ -4,9 +4,10 @@ body {
 }
 
 .navbar {
-    padding: 10px;
+    padding: 50px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     height: 50px;
 }
 
@@ -24,8 +25,12 @@ body {
     margin-right: 20px;
 }
 
+.navbar ul li a {
+    font-size: 30px;
+}
+
 .navbar img {
-    height: 50px;
+    height: 100px;
     margin-right: 20px;
 }
 
@@ -33,7 +38,7 @@ body {
 
 .header {
     background-image: url(images/landing.jpg);
-    padding: 150px 0px;
+    padding: 450px 0px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -44,40 +49,60 @@ body {
     text-align: center;
 }
 
+.header-text h1 {
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.header-text p {
+    font-size: 35px;
+}
+
 /* header end */
 
 /* about section start */
 
-.info {
+.about {
     text-align: center;
 }
 
-.info h2 {
-    font-size: 20px;
-    margin-bottom: 0px;
+.about h2 {
+    font-size: 50px;
+    font-weight: 900;
+    margin: 0px;
 }
 
-.info-header hr {
-    width: 150px;
-    height: 3px;
+.about-header {
+    padding: 50px 0px;
+}
+
+.about-header hr {
+    width: 400px;
+    height: 5px;
     background-color: #13b36b;
     border: none;
 }
 
-.info-content {
+.about-content {
     padding-top: 30px;
     display: flex;
     justify-content: space-around;
     color: #000;
 }
 
-.info-content h3 {
+.about-content h3 {
     color: #13b36b;
     font-weight: 900;
+    font-size: 40px;
 }
 
-.info img {
-    width: 50px;
+.about-content p {
+    font-size: 30px;
+    color: #191919a4;
+}
+
+.about img {
+    width: 100px;
 }
 
 /* about section end */
@@ -86,46 +111,52 @@ body {
 
 .container {
     background-color: #13b36b;
-    padding: 30px 0px;
-    margin: 0px 20px;
+    padding: 50px 0px;
+    margin: 30px 50px;
 }
 
 .green-section-content {
     display: flex;
     align-items: center;
-    justify-content: center;
-}
-
-.green-section-text {
-    color: white;
-}
-
-.green-section-text p {
-    font-size: 10px;
+    justify-content: space-evenly;
 }
 
 .container h2 {
     color: white;
     text-align: center;
     margin: 0px;
-    font-size: 20px;
+    font-size: 50px;
+}
+
+.green-section-text hr {
+    width: 600px;
+    height: 5px;
+    background-color: white;
+    border: none;
+}
+
+.green-section-text {
+    color: white;
+}
+
+.green-section-text h3 {
+    color: white;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.green-section-text p {
+    font-size: 30px;
 }
 
 .spotify-icon img {
-    width: 60px;
+    width: 200px;
     margin-right: 40px;
 }
 
 .spotify-app img {
-    width: 150px;
-    height: 300px;
-}
-
-.green-section-text hr {
-    width: 240px;
-    height: 3px;
-    background-color: white;
-    border: none;
+    width: 400px;
+    height: auto;
 }
 
 /* green section end */
