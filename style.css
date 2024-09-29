@@ -1,4 +1,101 @@
-body{
+body {
     margin: 0%;
     padding: 0%;
+}
+
+.navbar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar img {
+    height: 50px;
+    margin-right: 20px;
+}
+
+/* header start */
+
+.header {
+    background-image: url(images/landing.jpg);
+    padding: 500px 0px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-text{
+    color: white;
+    text-align: center;
+}
+
+.info{
+    text-align: center;
+}
+
+.info h2{
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+.info-header hr{
+    width:300px;
+    height: 3px;
+    background-color: #13b36b;
+    border: none;
+}
+
+.info-content{
+    display: flex;
+    justify-content: space-around;
+    color: #000;
+}
+
+.info-content h3{
+    color: #13b36b;
+    font-weight: 900;
+}
+
+.info img{
+    width: 100px;
+}
+
+/* header end */
+
+/* green section start */
+
+.container {
+    margin: 0px 15px;
+    background-color: #13b36b;
+    padding: 100px 0px;
+    display: flex;
+}
+
+.green-section-content{
+   
+}
+
+.container h2{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#green-section img{
+ width: 30px;
 }
